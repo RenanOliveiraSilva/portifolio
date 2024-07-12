@@ -7,12 +7,12 @@ import NavScrollExample from './components/Navbar/Navbar'
 function App() {
 
   return (
-    <>
+    <div className='main'>
+
       <NavScrollExample />
-      
       <Outlet />
 
-    </>
+    </div>
   )
 }
 

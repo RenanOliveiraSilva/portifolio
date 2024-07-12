@@ -1,4 +1,12 @@
 body {
+
+}
+
+.main {
+  background-color: red;
+  padding-top: 80px;
+  height: auto;
+
 }
 
 .App {
