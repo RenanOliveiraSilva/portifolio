@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Badge from 'react-bootstrap/Badge';
-import avatar from '../../assets/b.png'
+import avatar from '../../assets/c.png'
 import teste from '../../assets/a.gif'
 import './Home.css'
 
@@ -33,7 +33,7 @@ function Home() {
           />
         </Col>
         <Col>
-          <Badge pill bg="light" text="dark">
+          <Badge pill className='custom-badge' style={{ fontSize: '1.2em' }}>
             Olá, que bom te conhecer
           </Badge>
         </Col>

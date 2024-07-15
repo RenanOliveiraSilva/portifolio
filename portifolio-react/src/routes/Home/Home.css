@@ -8,3 +8,12 @@
     filter: drop-shadow(0 4px 10px rgba(191, 19, 234, 0.692)); /* Aumenta a sombra no hover */
   }
   
+  .badge {
+    padding: 10px !important;
+  }
+  
+.custom-badge {
+  background-color: rgba(75, 22, 128, 0.5) !important;
+  color: #A24FDB !important;
+  
+}
