@@ -1,0 +1,10 @@
+.overlay-image {
+    transition: transform 0.3s; /* Transição suave */
+    z-index: 1;
+  }
+  
+  .overlay-image:hover {
+    transform: translate(-50%, -50%) scale(1.2) !important; /* Aumenta a imagem no hover */
+    filter: drop-shadow(0 4px 10px rgba(191, 19, 234, 0.692)); /* Aumenta a sombra no hover */
+  }
+  
