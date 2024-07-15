@@ -3,17 +3,33 @@
     z-index: 1;
   }
   
-  .overlay-image:hover {
-    transform: translate(-50%, -50%) scale(1.2) !important; /* Aumenta a imagem no hover */
-    filter: drop-shadow(0 4px 10px rgba(191, 19, 234, 0.692)); /* Aumenta a sombra no hover */
-  }
+.overlay-image:hover {
+  transform: translate(-50%, -50%) scale(1.2) !important; /* Aumenta a imagem no hover */
+  filter: drop-shadow(0 4px 10px rgba(191, 19, 234, 0.692)); /* Aumenta a sombra no hover */
+}
   
-  .badge {
-    padding: 10px !important;
-  }
+.badge {
+  padding: 10px !important;
+}
   
 .custom-badge {
   background-color: rgba(75, 22, 128, 0.5) !important;
   color: #A24FDB !important;
   
 }
+
+.custom-text {
+  font-size: 2.1em;
+  color: #FFFFFF;
+}
+
+.subT {
+  font-size: 0.6em !important;
+  color: #959595;
+}
+
+.blur-border {
+  filter: blur(5px); /* Aplica desfoque */
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5); /* Cria a borda desfocada */
+}
+
