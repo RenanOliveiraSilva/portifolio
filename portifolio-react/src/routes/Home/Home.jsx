@@ -19,8 +19,8 @@ function Home() {
     <>
       <Container fluid className='p-2 pt-4 mt-5 custom-container' id="section1">
         <Row className='mb-2'>
-          <Col xs={6} md={6} sm={12} className='p-2 pb-2'>
-            <Row className='d-flex justify-content-center position-relative '>
+          <Col xs={12} md={6} className='p-2 pb-2'>
+            <Row className='d-flex justify-content-center position-relative'>
               <Image
                 src={teste}
                 style={{ width: '350px', height: '350px' }}
@@ -72,26 +72,19 @@ function Home() {
             </Row>
           </Col>
           
-          <Col xs={6} md={6} sm={12} className='p-2 pb-2'>
-            
-              <Badge pill className='custom-badge' style={{ fontSize: '1.2em'}}>
-                <i className="fa-solid fa-hand-peace" style={{ color: '#FFD43B', paddingRight: '10px', paddingLeft: '5px' }}></i> Olá, que bom te conhecer
-              </Badge>
-           
+          <Col xs={12} md={6} className='p-2 pb-2'>
+            <Badge pill className='custom-badge' style={{ fontSize: '1.2em'}}>
+              <i className="fa-solid fa-hand-peace" style={{ color: '#FFD43B', paddingRight: '10px', paddingLeft: '5px' }}></i> Olá, que bom te conhecer
+            </Badge>
             <div className='custom-text pt-3'>
               <strong>
                 Eu me chamo Renan!<br />
                 Seja bem vindo a minha Página
               </strong>
-              
             </div>
-            
-            
-              <div className="subT">
-                Programador Front-End
-              </div>
-            
-            
+            <div className="subT">
+              Programador Front-End
+            </div>
             <Row className='mt-5'>
               <Car />
             </Row>
