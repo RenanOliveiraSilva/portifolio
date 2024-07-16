@@ -39,3 +39,12 @@
   color: #FFFFFF;
   text-align: center;
 }
+
+.custom-container {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+* {
+  box-sizing: initial !important;
+}
