@@ -6,6 +6,10 @@ import Badge from 'react-bootstrap/Badge';
 import avatar from '../../assets/avatar1.png'
 import teste from '../../assets/a.gif'
 import './Home.css'
+import Car from '../../components/Carousel/Carousel'
+
+import git from '../../assets/github.png'
+import linkedIn from '../../assets/linkedIn.png'
 
 function Home() {
   return (
@@ -50,8 +54,30 @@ function Home() {
           </Col>
       </Row>
       <Row>
-        <Col>
-              
+        <Col xs={6} md={6} sm={12} className='mt-5 d-flex p-2' style={{ justifyContent: 'space-around'}}>
+            <Image
+              src={git}
+              style={{ width: '60px', height: '60px' }}
+              roundedCircle
+            />
+            <Image
+              src={linkedIn}
+              style={{ width: '60px', height: '60px' }}
+              roundedCircle
+            />
+            <Image
+              src={teste}
+              style={{ width: '60px', height: '60px' }}
+              roundedCircle
+            />
+            <Image
+              src={teste}
+              style={{ width: '60px', height: '60px' }}
+              roundedCircle
+            />
+        </Col>
+        <Col xs={6} md={6} sm={12}>
+              <Car />
         </Col>
       </Row>
     </Container>
