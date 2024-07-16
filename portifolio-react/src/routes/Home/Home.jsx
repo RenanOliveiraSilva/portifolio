@@ -12,6 +12,7 @@ import git from '../../assets/git.png';
 import linkedIn from '../../assets/linkedIn.png';
 import google from '../../assets/google.png';
 import whats from '../../assets/whatsapp.png';
+import Card from '../../components/Card/Card';
 
 function Home() {
   return (
@@ -87,7 +88,7 @@ function Home() {
             
             
               <div className="subT">
-                Programado Front-End
+                Programador Front-End
               </div>
             
             
@@ -95,6 +96,12 @@ function Home() {
               <Car />
             </Row>
           </Col>
+        </Row>
+        <Row>
+          <div className="academico">
+            <Card />
+          </div>
+          <hr/>
         </Row>
       </Container>
     </>

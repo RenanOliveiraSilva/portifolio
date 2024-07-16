@@ -53,3 +53,9 @@
 * {
   margin: 0 !important;
 }
+
+@media screen and (max-width: 768px) {
+  .custom-container {
+    flex-direction: row !important;
+  }
+}
