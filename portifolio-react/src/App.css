@@ -1,10 +1,8 @@
-body {
 
-}
 
 .main {
   background-color: #0C0112;
-  padding-top: 80px;
+  padding-top: 35px;
   height: auto;
 
 }
@@ -46,6 +44,7 @@ body {
 .pr-15 {
   padding-right: 50px;
 }
+
 
 @keyframes App-logo-spin {
   from {

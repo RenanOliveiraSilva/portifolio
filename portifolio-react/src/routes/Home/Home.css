@@ -22,10 +22,11 @@
 .custom-text {
   font-size: 2.1em;
   color: #FFFFFF;
+  width: fit-content;
 }
 
 .subT {
-  font-size: 0.6em !important;
+  font-size: 1.2em !important;
   color: #959595;
 }
 
@@ -45,6 +46,10 @@
   flex-direction: row;
 }
 
+.custom-images {
+  box-sizing: border-box !important;
+}
+
 * {
-  box-sizing: initial !important;
+  margin: 0 !important;
 }
