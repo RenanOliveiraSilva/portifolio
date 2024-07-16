@@ -99,7 +99,7 @@ function Home() {
         </Row>
         <Row>
           <div className="academico">
-            <Card />
+            {/* <Card /> */}
           </div>
           <hr/>
         </Row>
