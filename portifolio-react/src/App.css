@@ -39,6 +39,14 @@ body {
   color: #61dafb;
 }
 
+.pl-15 {
+  padding-left: 50px;
+}
+
+.pr-15 {
+  padding-right: 50px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
