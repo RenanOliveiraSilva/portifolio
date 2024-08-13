@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import Home from "./Home/Home"
+import Home from "./screens/Home/Home"
 
 export default function App() {
 

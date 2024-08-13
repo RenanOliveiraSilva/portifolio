@@ -1,5 +1,5 @@
 import React from 'react'
-import { Component } from '../components/Navbar/Index'
+import { Component } from '../../components/Navbar/Index'
 
 
 export default function Home() {
