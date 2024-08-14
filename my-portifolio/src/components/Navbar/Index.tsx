@@ -1,10 +1,12 @@
 
 import { Button, CustomFlowbiteTheme, Flowbite, Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "flowbite-react";
+import imgLogo from '../../imgs/logoIcon.png'
+import flagEUA from '../../imgs/estados-unidos.png'
 
 const customTheme: CustomFlowbiteTheme = {
   navbar: {
     "root": {
-      "base": "bg-white dark:bg-coolGray px-2 py-2.5 dark:border-gray-700 sm:px-4",
+      "base": "bg-coolGray dark:bg-coolGray px-2 py-2.5 dark:border-gray-700 sm:px-4",
       "rounded": {
         "on": "rounded",
         "off": ""
@@ -55,21 +57,21 @@ export function Component() {
     <Flowbite theme={{ theme: customTheme}}>
       <Navbar fluid rounded>
         <NavbarBrand href="https://flowbite-react.com">
-          <img src="/favicon.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
-          <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Flowbite React</span>
+          <img src={imgLogo} className="mr-3 h-6 sm:h-9" alt="Logo" />
+          <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Renan Silva</span>
         </NavbarBrand>
-        <div className="flex md:order-2">
-          <Button>Get started</Button>
+        <div className="flex md:order-2 items-center">
+          <Button> <img src={flagEUA} className="mr-3 h-6 sm:h-9" alt="Logo" /> English Version</Button>
           <NavbarToggle />
         </div>
         <NavbarCollapse>
-          <NavbarLink href="#" active>
-            Home
+          <NavbarLink href="#">
+            Sobre mim
           </NavbarLink>
-          <NavbarLink href="#">About</NavbarLink>
-          <NavbarLink href="#">Services</NavbarLink>
-          <NavbarLink href="#">Pricing</NavbarLink>
-          <NavbarLink href="#">Contact</NavbarLink>
+          <NavbarLink href="#">Formação</NavbarLink>
+          <NavbarLink href="#">Meus Projetos</NavbarLink>
+          <NavbarLink href="#">Meus Serviços</NavbarLink>
+          <NavbarLink href="#">Contatos</NavbarLink>
         </NavbarCollapse>
       </Navbar>
     </Flowbite>
