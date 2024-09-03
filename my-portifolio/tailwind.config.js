@@ -12,6 +12,18 @@ export default {
         customBlue: '#3996DB',
         customGreen: '#82BC4F',
         customYellow: '#EABD5F',
+      },
+      backgroundImage: {
+        pattern: 'url(/Background_Intro.png)'
+      },
+      fontFamily: {
+        asap: ['Asap', 'sans-serif'],
+        inconsolata: ['Inconsolata', 'monospace'],
+        maven: ['Maven Pro', 'sans-serif']
+      },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+       
       }
     },
   },
