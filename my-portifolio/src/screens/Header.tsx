@@ -12,7 +12,7 @@ const Header = () => {
           <div className="absolute w-28 h-28 md:w-36 md:h-36 border-4 border-customPurple rounded-full animate-spin-slow"></div>
 
           {/* Moldura Interna com spin mais rápido */}
-          <div className="absolute w-24 h-24 md:w-32 md:h-32 border-4 border-customBlue rounded-full animate-spin animate-glow"></div>
+          <div className="absolute w-24 h-24 md:w-32 md:h-32 border-4 border-customBlue rounded-full animate-glow"></div>
 
           {/* Imagem de perfil */}
           <img src="/perfil.webp" alt="Profile" className="relative rounded-full w-24 h-24 md:w-32 md:h-32" />
