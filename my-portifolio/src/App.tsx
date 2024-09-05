@@ -1,5 +1,5 @@
-import Header from './components/Header';
-import Works from './components/Works.tsx';
+import Header from './screens/Header.tsx';
+import Works from './screens/Works.tsx';
 // import Footer from './components/Footer';
 
 function App() {

@@ -15,7 +15,8 @@ export default {
         backgroundColor: '#16181d'
       },
       backgroundImage: {
-        pattern: 'url(/Background_Intro.png)'
+        pattern: 'url(/Background_Intro.png)',
+        patternMobile: 'url(/Background_Intro_Mobile.png)'
       },
       fontFamily: {
         asap: ['Asap', 'sans-serif'],
