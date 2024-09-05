@@ -61,7 +61,7 @@ const Header = () => {
       </div>
       {/* Ícone de seta */}
       <Link to="works" smooth={true} duration={500}>
-        <div className="arrow mt-10 hover:cursor-pointer">
+        <div className="arrow hover:cursor-pointer">
           <FaArrowDown className="w-8 h-8 animate-bounce text-gray-300" />
         </div>
       </Link>
