@@ -12,6 +12,7 @@ export default {
         customBlue: '#3996DB',
         customGreen: '#82BC4F',
         customYellow: '#EABD5F',
+        backgroundColor: '#16181d'
       },
       backgroundImage: {
         pattern: 'url(/Background_Intro.png)'
