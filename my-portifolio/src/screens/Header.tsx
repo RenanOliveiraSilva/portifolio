@@ -1,5 +1,6 @@
 import { FaGithub, FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaDatabase, FaArrowDown } from 'react-icons/fa';
 import { SiMongodb, SiAndroidstudio  } from "react-icons/si";
+import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
@@ -49,6 +50,7 @@ const Header = () => {
               { icon: SiAndroidstudio, label: "Mobile", color: "text-customGray", animation: "animate-pulse" },
             ].map(({ icon: Icon, label, color, animation }, idx) => (
               <div key={idx} className="flex items-center space-x-2 px-3 py-1 md:py-2 md:px-4 bg-gray-700 rounded-full text-gray-300 shadow-lg">
+                
                 <Icon className={`w-5 h-5 ${color} ${animation}`} />
                 <span className="font-maven font-extralight text-xs md:text-sm">{label}</span>
               </div>
@@ -58,9 +60,11 @@ const Header = () => {
         
       </div>
       {/* Ícone de seta */}
-      <div className="arrow mt-10">
+      <Link to="works" smooth={true} duration={500}>
+        <div className="arrow mt-10 hover:cursor-pointer">
           <FaArrowDown className="w-8 h-8 animate-bounce text-gray-300" />
         </div>
+      </Link>
     </header>
   )
 }

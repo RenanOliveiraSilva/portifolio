@@ -5,8 +5,15 @@ import Works from './screens/Works.tsx';
 function App() {
   return (
     <div className="bg-backgroundColor text-white min-h-screen">
-      <Header />
-      <Works />
+      <section id='header'>
+        <Header />
+
+      </section>
+
+      <section id='works'>
+        <Works />
+
+      </section>
 
       {/* <Footer /> */}
     </div>
