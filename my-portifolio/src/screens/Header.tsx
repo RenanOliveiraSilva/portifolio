@@ -20,7 +20,7 @@ const Header = () => {
       <p className="font-inconsolata text-xs md:text-3xl font-light">
         Hello World! Meu nome é <span className="text-customPurple font-bold">Renan Silva</span> e eu sou
       </p>
-      <h2 className="text-4xl md:text-6xl font-bold font-asap mb-6">
+      <h2 className="text-5xl md:text-6xl font-bold font-asap mb-6">
         Desenvolvedor Front-End
       </h2>
       <p className="text-sm md:text-base font-light font-maven text-gray-500">
