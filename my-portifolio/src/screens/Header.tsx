@@ -3,10 +3,10 @@ import { FaGithub, FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaDatabase
 const Header = () => {
   return (
     <header className="flex flex-col items-center justify-between h-screen bg-cover bg-no-repeat bg-center bg-patternMobile md:bg-pattern px-5 py-8">
-  <div className="info flex flex-col items-center justify-around p-3 max-w-3xl space-y-2 h-full mt-4">
+  <div className="info flex flex-col items-center justify-start p-3 max-w-3xl space-y-2 h-full mt-2">
     
     {/* Perfil com imagem */}
-    <div className="relative moldura rounded-full p-1 border-4 border-customPurple flex items-center justify-center mb-5">
+    <div className="relative moldura rounded-full p-1 border-4 border-customPurple flex items-center justify-center mb-1 md:mb-3">
       <img src="/perfil.webp" alt="Profile" className="rounded-full w-24 h-24 md:w-32 md:h-32" />
       {/* Ícone opcional */}
       {/* <span className="absolute bottom-0 right-0 transform translate-x-2 translate-y-2 bg-gray-900 p-2 rounded-full">
@@ -15,14 +15,15 @@ const Header = () => {
     </div>
 
     {/* Conteúdo textual */}
-    <div className="content flex flex-col items-center justify-center max-w-3xl text-center">
-      <p className="font-inconsolata text-sm md:text-3xl font-light">
+    <div className="teste py-5 h-[400px] flex flex-col justify-around">
+    <div className="content flex flex-col items-center justify-center space-y-3 max-w-3xl text-center mb-10">
+      <p className="font-inconsolata text-xs md:text-3xl font-light">
         Hello World! Meu nome é <span className="text-customPurple font-bold">Renan Silva</span> e eu sou
       </p>
       <h2 className="text-4xl md:text-6xl font-bold font-asap mb-6">
         Desenvolvedor Front-End
       </h2>
-      <p className="text-sm md:text-base font-light font-maven text-gray-500 mb-6">
+      <p className="text-sm md:text-base font-light font-maven text-gray-500">
         Minha paixão pela tecnologia impulsionou minha trajetória até aqui, sempre buscando novos desafios e aprendizados. Estou em constante busca por oportunidades que me permitam crescer e evoluir como profissional, contribuindo com soluções inovadoras e impactantes.
       </p>
     </div>
@@ -43,6 +44,7 @@ const Header = () => {
       <span className="font-maven font-extralight text-xs md:text-sm">{label}</span>
     </div>
   ))}
+</div>
 </div>
   </div>
 
