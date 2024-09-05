@@ -15,14 +15,14 @@ const Header = () => {
     </div>
 
     {/* Conteúdo textual */}
-    <div className="teste py-5 h-[400px] flex flex-col justify-around">
+    <div className="teste py-5 h-[400px] flex flex-col justify-start">
     <div className="content flex flex-col items-center justify-center space-y-3 max-w-3xl text-center mb-10">
       <p className="font-inconsolata text-xs md:text-3xl font-light">
         Hello World! Meu nome é <span className="text-customPurple font-bold">Renan Silva</span> e eu sou
       </p>
-      <h2 className="text-5xl md:text-6xl font-bold font-asap mb-6">
-        Desenvolvedor Front-End
-      </h2>
+      <h2 className="text-3xl md:text-6xl font-bold font-asap mb-6">
+  Desenvolvedor <span className="block md:inline">Front-End</span>
+</h2>
       <p className="text-sm md:text-base font-light font-maven text-gray-500">
         Minha paixão pela tecnologia impulsionou minha trajetória até aqui, sempre buscando novos desafios e aprendizados. Estou em constante busca por oportunidades que me permitam crescer e evoluir como profissional, contribuindo com soluções inovadoras e impactantes.
       </p>
