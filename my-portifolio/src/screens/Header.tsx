@@ -6,7 +6,7 @@ const Header = () => {
   <div className="info flex flex-col items-center justify-start p-3 max-w-3xl space-y-2 h-full mt-2">
     
     {/* Perfil com imagem */}
-    <div className="relative moldura rounded-full p-1 border-4 border-customPurple flex items-center justify-center mb-1 md:mb-3">
+    <div className="relative moldura rounded-full p-1 border-4 border-customPurple flex items-center justify-center md:mb-3">
       <img src="/perfil.webp" alt="Profile" className="rounded-full w-24 h-24 md:w-32 md:h-32" />
       {/* Ícone opcional */}
       {/* <span className="absolute bottom-0 right-0 transform translate-x-2 translate-y-2 bg-gray-900 p-2 rounded-full">
