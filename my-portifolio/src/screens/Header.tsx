@@ -2,7 +2,7 @@ import { FaGithub, FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaDatabase
 
 const Header = () => {
   return (
-    <header className="flex flex-col items-center justify-start h-fit md:h-screen bg-cover bg-no-repeat bg-center bg-patternMobile md:bg-pattern px-5 py-8">
+    <header className="flex flex-col items-center justify-start h-fit md:h-screen bg-cover bg-no-repeat bg-center bg-patternMobile md:bg-pattern px-2 md:px-5 py-8">
       <div className="info flex flex-col items-center justify-start p-3 max-w-3xl space-y-2 h-full mt-2">
       
         {/* Perfil com imagem */}
