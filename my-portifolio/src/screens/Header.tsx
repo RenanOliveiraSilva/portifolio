@@ -4,10 +4,11 @@ import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
-    <header className="flex flex-col items-center justify-around h-screen md:h-screen bg-cover bg-no-repeat bg-center bg-patternMobile md:bg-pattern px-2 md:px-5 py-8">
+    <header className="flex z-10 flex-col items-center justify-around h-screen md:h-screen bg-cover bg-no-repeat bg-center bg-patternMobile md:bg-pattern px-2 md:px-5 py-8 select-none">
       <div className="info flex flex-col items-center justify-start p-3 max-w-3xl space-y-2 h-fit mt-2">
       
         {/* Perfil com imagem */}
+        <a href="https://www.linkedin.com/in/renan-de-oliveira-silva-416721289">
         <div className="relative flex items-center justify-center">
           {/* Moldura Externa com spin mais lento */}
           <div className="absolute w-28 h-28 md:w-36 md:h-36 border-4 border-customPurple rounded-full animate-spin-slow"></div>
@@ -18,6 +19,8 @@ const Header = () => {
           {/* Imagem de perfil */}
           <img src="/perfil.webp" alt="Profile" className="relative rounded-full w-24 h-24 md:w-32 md:h-32" />
         </div>
+        </a>
+        
 
         {/* Conteúdo textual */}
         <div className="teste py-5 h-[400px] flex flex-col justify-start mb-2">
@@ -49,7 +52,7 @@ const Header = () => {
               { icon: SiMongodb, label: "MongoDB", color: "text-customGreen", animation: "animate-pulse" },
               { icon: SiAndroidstudio, label: "Mobile", color: "text-customGray", animation: "animate-pulse" },
             ].map(({ icon: Icon, label, color, animation }, idx) => (
-              <div key={idx} className="flex items-center space-x-2 px-3 py-1 md:py-2 md:px-4 bg-gray-700 rounded-full text-gray-300 shadow-lg">
+              <div key={idx} className="flex items-center space-x-2 px-3 py-1 md:py-2 md:px-4 bg-gray-700 rounded-full text-gray-300 shadow-lg select-none">
                 
                 <Icon className={`w-5 h-5 ${color} ${animation}`} />
                 <span className="font-maven font-extralight text-xs md:text-sm">{label}</span>
@@ -59,6 +62,7 @@ const Header = () => {
         </div>
         
       </div>
+
       {/* Ícone de seta */}
       <Link to="works" smooth={true} duration={500}>
         <div className="arrow hover:cursor-pointer">

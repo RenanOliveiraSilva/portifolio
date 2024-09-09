@@ -12,6 +12,8 @@ const Works = () => {
           <Card title='List-ToDo React' description='Projeto web utilizando ReactTSX e MongoDB' image='/Background_Intro.png'/>
           <Card title='List-ToDo React' description='Projeto web utilizando ReactTSX e MongoDB' image='/Background_Intro.png'/>
           <Card title='List-ToDo React' description='Projeto web utilizando ReactTSX e MongoDB' image='/Background_Intro.png'/>
+          <Card title='List-ToDo React' description='Projeto web utilizando ReactTSX e MongoDB' image='/Background_Intro.png'/>
+          <Card title='List-ToDo React' description='Projeto web utilizando ReactTSX e MongoDB' image='/Background_Intro.png'/>
 
         </div>
         
