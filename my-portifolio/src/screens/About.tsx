@@ -1,5 +1,3 @@
-import React from 'react'
-
 const About = () => {
   return (
     <div className='main flex flex-col h-fit w-screen p-4 bg-patternMobile md:flex-row md:p-10'>
