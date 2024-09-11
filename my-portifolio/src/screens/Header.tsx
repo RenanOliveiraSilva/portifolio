@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="flex z-10 flex-col items-center justify-around h-screen md:h-screen bg-cover bg-no-repeat bg-center bg-patternMobile md:bg-pattern px-2 md:px-5 py-8 select-none">
       <div className="info flex flex-col items-center justify-start p-3 max-w-3xl space-y-2 h-fit mt-2">
-      
+   
         {/* Perfil com imagem */}
         <a href="https://www.linkedin.com/in/renan-de-oliveira-silva-416721289">
         <div className="relative flex items-center justify-center">
@@ -21,7 +21,6 @@ const Header = () => {
         </div>
         </a>
         
-
         {/* Conteúdo textual */}
         <div className="teste py-5 h-[400px] flex flex-col justify-start mb-2">
           <div className="content flex flex-col items-center justify-center space-y-2 max-w-3xl text-center mb-5">
