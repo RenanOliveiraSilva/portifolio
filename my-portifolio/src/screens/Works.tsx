@@ -8,15 +8,19 @@ const Works = () => {
         <p className='font-inconsolata text-xl md:text-4xl font-bold'>Projetos desenvolvidos por mim</p>
       </div>
 
-      <div className="cards px-2 py-1 md:px-20 h-fit mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 justify-between">
-        <Card />
-        <Card />
-        <Card />
+      <div className="cards flex-wrap px-4 py-1 md:px-20 h-fit mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-14 justify-between">
+  <Card
+    title="Projeto de Portfolio"
+    description="Este é um projeto desenvolvido usando React, TypeScript e Tailwind CSS para criar um portfólio interativo e moderno."
+    image="/Background_Intro.png"
+  />
+  <Card title='Teste' description='ascacw  ecece eecec eccece e ececc' image='d'/>
+  <Card title='Teste' description='ascacw  ecece eecec eccece e ececc' image='d'/>
+  <Card title='Teste' description='ascacw  ecece eecec eccece e ececc' image='d'/>
+  <Card title='Teste' description='ascacw  ecece eecec eccece e ececc' image='d'/>
 
-        <Card />
-        <Card />
-        <Card />
-      </div>
+</div>
+
     </section>
   );
 };
