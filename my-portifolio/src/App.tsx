@@ -1,10 +1,8 @@
 import Header from './screens/Header.tsx';
 import Works from './screens/Works.tsx';
 import About from './screens/About.tsx';
+import Contact from './screens/Contact.tsx';
 // import Footer from './components/Footer';
-
-// import MeuSvg from '/rocket-animate.svg';
-// <img src={MeuSvg} alt="Rocket Animation" />;
 
 function App() {
   return (
@@ -22,6 +20,11 @@ function App() {
       <section id='about'>
         <About />
       </section>
+
+      <section id='about'>
+        <Contact />
+      </section>
+
       {/* <Footer /> */}
     </div>
   );

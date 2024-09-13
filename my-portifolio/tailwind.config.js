@@ -39,6 +39,7 @@ export default {
       backgroundImage: {
         pattern: 'url(/Background_Intro.png)',
         patternMobile: 'url(/Background_Intro_Mobile.png)',
+        contacts: 'url(/Background_Contacts.png)'
       },
       fontFamily: {
         asap: ['Asap', 'sans-serif'],
