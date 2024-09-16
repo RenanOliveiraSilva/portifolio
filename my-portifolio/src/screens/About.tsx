@@ -2,7 +2,7 @@ import Button from '../components/Button';
 
 const About = () => {
   return (
-    <div className="bg-patternMobile bg-cover bg-no-repeat bg-center md:bg-pattern text-white min-h-screen flex flex-col justify-center items-center p-4 md:p-16 mt-10">
+    <div className="bg-patternMobile bg-cover bg-no-repeat bg-center md:bg-pattern text-white h-fit md:h-screen flex flex-col justify-center items-center p-4 md:p-16 mt-10">
       <div className="quadros relative bg-gray-900 p-8 rounded-xl shadow-2xl max-w-5xl transform scale-90 hover:scale-95 transition-transform duration-300 grid grid-cols-1 md:grid-cols-2 gap-8">
         
         <div className="absolute -top-14 left-1/2 transform -translate-x-1/2">

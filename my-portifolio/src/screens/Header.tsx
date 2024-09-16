@@ -1,4 +1,4 @@
-import { FaGithub, FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaDatabase, FaArrowDown } from 'react-icons/fa';
+import { FaGithub, FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaDatabase, FaAngleDoubleDown  } from 'react-icons/fa';
 import { SiMongodb, SiAndroidstudio  } from "react-icons/si";
 import { Link } from 'react-scroll';
 
@@ -65,7 +65,7 @@ const Header = () => {
       {/* Ícone de seta */}
       <Link to="works" smooth={true} duration={500}>
         <div className="arrow hover:cursor-pointer">
-          <FaArrowDown className="w-8 h-8 animate-bounce text-gray-300" />
+          <FaAngleDoubleDown className="w-8 h-8 animate-bounce text-gray-300" />
         </div>
       </Link>
     </header>
