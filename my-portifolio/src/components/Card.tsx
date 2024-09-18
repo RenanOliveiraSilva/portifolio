@@ -4,9 +4,11 @@ interface CardProps {
   title: string;
   description: string;
   image: string;
+  linkGithub: string;
+  linkLinkedIn: string;
 }
 
-export default function Card({ title, description, image }: CardProps) {
+export default function Card({ title, description, image, linkGithub, linkLinkedIn }: CardProps) {
   return (
     <div className="group flex flex-col justify-start items-start gap-2 w-full md:w-80 lg:w-96 h-48 md:h-56 duration-500 relative rounded-lg p-4 bg-customGray hover:-translate-y-2 hover:shadow-xl shadow-gray-300">
       <div
@@ -23,7 +25,7 @@ export default function Card({ title, description, image }: CardProps) {
 
       <div className="flex space-x-3 mt-auto">
         <a
-          href="https://www.linkedin.com/in/seu-perfil-linkedin"
+          href={linkLinkedIn}
           target="_blank"
           rel="noopener noreferrer"
           className="bg-customBlue p-3 rounded-full hover:bg-customBlue"
@@ -31,7 +33,7 @@ export default function Card({ title, description, image }: CardProps) {
           <FaLinkedin className="text-white w-6 h-6" />
         </a>
         <a
-          href="https://github.com/seu-usuario-github"
+          href={linkGithub} 
           target="_blank"
           rel="noopener noreferrer"
           className="bg-gray-200 p-3 rounded-full hover:bg-gray-300"

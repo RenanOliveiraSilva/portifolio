@@ -1,12 +1,9 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import emailjs from 'emailjs-com';
 
 const ContactForm = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
+  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const userId = import.meta.env.VITE_EMAILJS_USER_ID;
   const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
@@ -26,16 +23,33 @@ const ContactForm = () => {
       }, (error) => {
         console.log(error.text);
       });
-  
+      
+    setIsModalOpen(true);
     setFormData({ name: '', email: '', message: '' });
   };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  useEffect(() => {
+    if (isModalOpen) {
+      document.body.style.overflow = 'hidden';  // Bloqueia o scroll
+    } else {
+      document.body.style.overflow = 'auto';    // Restaura o scroll
+    }
+
+    return () => {
+      document.body.style.overflow = 'auto';    // Garante que o scroll volte ao normal ao desmontar o componente
+    };
+  }, [isModalOpen]);
 
   return (
     <div className="container px-4 mx-auto">
       <div className="mx-auto">
         <div className="max-w-md mx-auto px-8 py-6 bg-customGray rounded-lg shadow-lg">
-          <h2 className="text-2xl font-semibold text-white mb-4">
-            Fale Comigo
+          <h2 className="text-lg md:text-2xl font-extrabold text-white mb-4">
+            Mande um email para mim
           </h2>
           <form onSubmit={sendEmail}>
             <div className="mb-4">
@@ -89,6 +103,16 @@ const ContactForm = () => {
               Enviar Mensagem
             </button>
           </form>
+
+          {isModalOpen && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="bg-customGray p-6 rounded-lg shadow-lg">
+            <h2 className="text-2xl font-bold mb-4">Sucesso!</h2>
+            <p>O email foi enviado com sucesso.</p>
+            <button onClick={closeModal} className="mt-4 px-4 py-2 bg-customPurple text-white rounded">Fechar</button>
+          </div>
+        </div>
+      )}
         </div>
       </div>
     </div>
