@@ -8,7 +8,7 @@ const Works = () => {
         <p className='font-inconsolata text-xl md:text-4xl font-bold'>Projetos desenvolvidos por mim</p>
       </div>
 
-      <div className="cards px-4 py-1 md:px-20 h-fit mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 gap-14 justify-center mb-6 md:mb-0">
+      <div className="cards px-4 py-1 md:px-20 h-fit mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 gap-14 justify-center items-center mb-6 md:mb-0">
         <Card
           title="Projeto de Lista To-Do"
           description="Desenvolvi uma lista de tarefas usando Express, MongoDB e EJS, com operações CRUD dinâmicas e uma interface intuitiva."
@@ -19,18 +19,17 @@ const Works = () => {
         <Card
           title="Projeto appFilmes"
           description="Desenvolvi uma lista de tarefas usando Express, MongoDB e EJS, com operações CRUD dinâmicas e uma interface intuitiva."
-          image="/toDo.png"
+          image="/a.png"
           linkGithub="https://github.com/RenanOliveiraSilva/List-ToDo.git"
           linkLinkedIn="https://www.linkedin.com/posts/renan-de-oliveira-silva-416721289_explorando-express-e-mongodb-desenvolvendo-activity-7236534128349769728-N1az?utm_source=share&utm_medium=member_desktop"
         />
         <Card
-          title="Projeto de Lista To-Do"
-          description="Desenvolvi uma lista de tarefas usando Express, MongoDB e EJS, com operações CRUD dinâmicas e uma interface intuitiva."
-          image="/toDo.png"
+          title="Projeto BI"
+          description="Desenvolvi alguns dashboards de BI para empresa onde eu trabalho. O exemplo da imagem é um dashboard somente para estudo e com dados irreais."
+          image="/b.png"
           linkGithub="https://github.com/RenanOliveiraSilva/List-ToDo.git"
           linkLinkedIn="https://www.linkedin.com/posts/renan-de-oliveira-silva-416721289_explorando-express-e-mongodb-desenvolvendo-activity-7236534128349769728-N1az?utm_source=share&utm_medium=member_desktop"
         />
-        
 
       </div>
 
