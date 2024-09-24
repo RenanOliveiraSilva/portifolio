@@ -2,6 +2,7 @@ import Header from './screens/Header.tsx';
 import Works from './screens/Works.tsx';
 import About from './screens/About.tsx';
 import Contact from './screens/Contact.tsx';
+import Footer from './screens/Footer.tsx';
 
 function App() {
   return (
@@ -24,7 +25,9 @@ function App() {
         <Contact />
       </section>
 
-      {/* <Footer /> */}
+      <section id='footer'>
+        <Footer />
+      </section>
     </div>
   );
 }
