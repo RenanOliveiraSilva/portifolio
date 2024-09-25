@@ -4,9 +4,15 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-6 mt-10">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-6 md:px-16">
-        <p className="font-inconsolata text-sm md:text-base mb-4 md:mb-0 text-center md:text-left">
-          © 2024 Renan de Oliveira Silva - Todos os direitos reservados.
-        </p>
+        <div className="flex flex-col">
+            <p className="font-inconsolata text-sm md:text-base mb-4 md:mb-0 text-center md:text-left">
+            © Visual feito pela equipe RocketSeat.
+            </p>
+            <p className="font-inconsolata text-sm md:text-base mb-4 md:mb-0 text-center md:text-left">
+            © Site Desenvolvido por Renan de Oliveira Silva.
+            </p>
+            
+        </div>
 
         <div className="flex space-x-4">
           <a

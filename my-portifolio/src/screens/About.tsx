@@ -7,7 +7,7 @@ const About = () => {
         
         <div className="absolute -top-14 left-1/2 transform -translate-x-1/2">
           <img 
-            src="/perfil.webp" 
+            src="/perfil2.jpg" 
             alt="Profile" 
             className="w-28 h-28 rounded-full border-4 border-customPurple shadow-lg" 
           />
@@ -38,7 +38,7 @@ const About = () => {
           <h3 className="text-xl font-bold text-customPurple mb-2">Meu Currículo</h3>
           <div className="content flex justify-between h-full ">
             <div className="download flex flex-col font-inconsolata text-base h-full justify-between text-gray-300">
-              Faça o download do meu currículo aqui.
+              Em breve colocarei meu currículo ⚠️
               <Button title='Download do CV'/>
             </div>
             <div className="flex justify-center">
@@ -54,7 +54,7 @@ const About = () => {
         <div className="bg-customGray p-5 rounded-lg flex flex-col justify-between h-full">
           <h3 className="text-xl font-bold text-customPurple mb-2">Skills</h3>
           <p className="text-gray-300 font-inconsolata">
-            Sou desenvolvedor com experiência em JavaScript, TypeScript, PHP, HTML, CSS, React, Bootstrap e SQL. Atualmente, estou expandindo meus conhecimentos em Python, Java, React Native e WordPress, buscando sempre evoluir e criar soluções criativas e eficientes.
+            Sou desenvolvedor com experiência em JavaScript, TypeScript, PHP, HTML, CSS, React, Bootstrap e SQL. Atualmente, estou expandindo meus conhecimentos em Python, PowerBI, Java, React Native e WordPress, buscando sempre evoluir e criar soluções criativas e eficientes.
           </p>
         </div>
 

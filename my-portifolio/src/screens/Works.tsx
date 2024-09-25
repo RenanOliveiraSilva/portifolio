@@ -15,20 +15,23 @@ const Works = () => {
           image="/toDo.png"
           linkGithub="https://github.com/RenanOliveiraSilva/List-ToDo.git"
           linkLinkedIn="https://www.linkedin.com/posts/renan-de-oliveira-silva-416721289_explorando-express-e-mongodb-desenvolvendo-activity-7236534128349769728-N1az?utm_source=share&utm_medium=member_desktop"
+          showLinks={true}
         />
         <Card
           title="Projeto appFilmes"
-          description="Desenvolvi uma lista de tarefas usando Express, MongoDB e EJS, com operações CRUD dinâmicas e uma interface intuitiva."
+          description="Desenvolvi um app de filmes, onde o usuário pode ver os principais lançamentos ou buscar algum em específico."
           image="/a.png"
           linkGithub="https://github.com/RenanOliveiraSilva/List-ToDo.git"
           linkLinkedIn="https://www.linkedin.com/posts/renan-de-oliveira-silva-416721289_explorando-express-e-mongodb-desenvolvendo-activity-7236534128349769728-N1az?utm_source=share&utm_medium=member_desktop"
+          showLinks={true}
         />
         <Card
           title="Projeto BI"
-          description="Desenvolvi alguns dashboards de BI para empresa onde eu trabalho. O exemplo da imagem é um dashboard somente para estudo e com dados irreais."
+          description="Desenvolvi alguns dashboards de BI para empresa onde eu trabalho. O dashboard é somente para estudo e com dados irreais."
           image="/b.png"
           linkGithub="https://github.com/RenanOliveiraSilva/List-ToDo.git"
           linkLinkedIn="https://www.linkedin.com/posts/renan-de-oliveira-silva-416721289_explorando-express-e-mongodb-desenvolvendo-activity-7236534128349769728-N1az?utm_source=share&utm_medium=member_desktop"
+          showLinks={false}
         />
 
       </div>
