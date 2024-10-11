@@ -29,7 +29,7 @@ const Header = () => {
                 Hello World! Meu nome é <span className="text-customPurple font-bold">Renan Silva</span> e eu sou
               </p>
               <h2 className="text-3xl md:text-6xl font-bold font-asap mb-6">
-                Desenvolvedor <span className="block md:inline">Front-End</span>
+                Desenvolvedor <span className="block md:inline">Full-Stack</span>
               </h2>
 
             </div>
