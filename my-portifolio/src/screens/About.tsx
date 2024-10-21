@@ -38,7 +38,8 @@ const About = () => {
           <h3 className="text-xl font-bold text-customPurple mb-2">Meu Currículo</h3>
           <div className="content flex justify-between h-full ">
             <div className="download flex flex-col font-inconsolata text-base h-full justify-between text-gray-300">
-              Em breve colocarei meu currículo ⚠️
+              
+                Para saber mais sobre minhas experiências e habilidades, confira meu currículo.
               <Button title='Download do CV'/>
             </div>
             <div className="flex justify-center">
