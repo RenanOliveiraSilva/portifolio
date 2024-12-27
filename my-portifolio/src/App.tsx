@@ -3,10 +3,13 @@ import Works from './screens/Works.tsx';
 import About from './screens/About.tsx';
 import Contact from './screens/Contact.tsx';
 import Footer from './screens/Footer.tsx';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
     <div className="bg-backgroundColor text-white min-h-screen">
+      <Analytics/>
+      
       <section id='header' className='relative h-screen w-full bg-gray-900'>
         <Header />
 
