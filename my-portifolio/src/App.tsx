@@ -4,6 +4,7 @@ import About from './screens/About.tsx';
 import Contact from './screens/Contact.tsx';
 import Footer from './screens/Footer.tsx';
 import { Analytics } from "@vercel/analytics/react"
+// import Award from './screens/Award.tsx';
 
 function App() {
   return (
@@ -24,9 +25,14 @@ function App() {
         <About />
       </section>
 
+      {/* <section id='award'>
+        <Award />
+      </section> */}
+
       <section id='about'>
         <Contact />
       </section>
+
 
       <section id='footer'>
         <Footer />

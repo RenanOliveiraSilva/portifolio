@@ -19,7 +19,7 @@ export default function Card({ title, description, image, linkGithub, linkLinked
 
       <div>
         <h2 className="mb-2 text-lg md:text-xl font-extrabold font-asap text-white">{title}</h2>
-        <p className="text-gray-300 font-inconsolata text-sm md:text-base line-clamp-3">
+        <p className="text-gray-300 font-inconsolata text-[13px] line-clamp-3">
           {description}
         </p>
       </div>

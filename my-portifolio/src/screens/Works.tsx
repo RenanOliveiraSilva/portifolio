@@ -9,6 +9,14 @@ const Works = () => {
       </div>
 
       <div className="cards px-4 py-1 md:px-20 h-fit mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 gap-14 justify-center items-center mb-6 md:mb-0">
+      <Card
+          title="Projeto VirtuaFab"
+          description="Desenvolvi o protótipo do VirtuaFab para oferecer uma visualização interativa do estado das máquinas em tempo real. "
+          image="/virtuaFab.png"
+          linkGithub="https://github.com/RenanOliveiraSilva/WeatherApp"
+          linkLinkedIn="https://www.linkedin.com/posts/renan-de-oliveira-silva-416721289_reactnative-openweathermap-desenvolvimentomobile-activity-7255204520043929600-1ZqS?utm_source=share&utm_medium=member_desktop"
+          showLinks={false}
+        />
         <Card
           title="Projeto de Lista To-Do"
           description="Desenvolvi uma lista de tarefas usando Express, MongoDB e EJS, com operações CRUD dinâmicas e uma interface intuitiva."
@@ -26,12 +34,12 @@ const Works = () => {
           showLinks={true}
         />
         <Card
-          title="Projeto BI"
-          description="Desenvolvi alguns dashboards de BI para empresa onde eu trabalho. O dashboard é somente para estudo e com dados irreais."
-          image="/b.png"
-          linkGithub="https://github.com/RenanOliveiraSilva/List-ToDo.git"
-          linkLinkedIn="https://www.linkedin.com/posts/renan-de-oliveira-silva-416721289_explorando-express-e-mongodb-desenvolvendo-activity-7236534128349769728-N1az?utm_source=share&utm_medium=member_desktop"
-          showLinks={false}
+          title="Projeto appClima"
+          description="Desenvolvi um app de clima, onde o usuário pode verificar a previsão do clima em seu local ou locais diferentes."
+          image="/appClima.png"
+          linkGithub="https://github.com/RenanOliveiraSilva/WeatherApp"
+          linkLinkedIn="https://www.linkedin.com/posts/renan-de-oliveira-silva-416721289_reactnative-openweathermap-desenvolvimentomobile-activity-7255204520043929600-1ZqS?utm_source=share&utm_medium=member_desktop"
+          showLinks={true}
         />
         <Card
           title="Projeto NearBy"
@@ -42,13 +50,15 @@ const Works = () => {
           showLinks={true}
         />
         <Card
-          title="Projeto appClima"
-          description="Desenvolvi um app de clima, onde o usuário pode verificar a previsão do clima em seu local ou locais diferentes."
-          image="/appClima.png"
-          linkGithub="https://github.com/RenanOliveiraSilva/WeatherApp"
-          linkLinkedIn="https://www.linkedin.com/posts/renan-de-oliveira-silva-416721289_reactnative-openweathermap-desenvolvimentomobile-activity-7255204520043929600-1ZqS?utm_source=share&utm_medium=member_desktop"
-          showLinks={true}
+          title="Projeto BI"
+          description="Desenvolvi alguns dashboards de BI para empresa onde eu trabalho. O dashboard é somente para estudo e com dados irreais."
+          image="/b.png"
+          linkGithub="https://github.com/RenanOliveiraSilva/List-ToDo.git"
+          linkLinkedIn="https://www.linkedin.com/posts/renan-de-oliveira-silva-416721289_explorando-express-e-mongodb-desenvolvendo-activity-7236534128349769728-N1az?utm_source=share&utm_medium=member_desktop"
+          showLinks={false}
         />
+        
+        
 
       </div>
 
